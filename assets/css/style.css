@@ -1,0 +1,83 @@
+body{
+    background-image: url(../img/camera2.gif);
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+main{
+    width: 100%;
+    position: relative;
+}
+.game{
+    width: 40%;
+    background-color: white;
+    height: 300px;
+    border: solid rgb(255, 255, 255) 1px;
+    padding: 10%;
+    position: relative;
+    border: white;
+    border-radius: 20px;
+}
+.game-container{
+    display: flex;
+    justify-content: center;
+}
+main p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    border: white;
+    border-radius: 200px;
+}
+.score-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.time-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#thanos{
+    position: absolute;
+    width: 8vh;
+    height: 8vh;
+    left : 30%;
+    top : 20%;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  
+}
+p{
+    color: rgb(255, 255, 255);
+}
+#reset{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border: none;
+    justify-content: center;
+    background-color: red;
+    border-radius: 200px;
+    padding: 20px;
+}
+#reset-container{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+.hidden{
+    display: none;
+    position: relative;
+}
